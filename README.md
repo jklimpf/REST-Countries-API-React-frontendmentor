@@ -1,4 +1,4 @@
-## Live site: https://prismatic-starlight-7861ca.netlify.app/countries
+## Live site: https://prismatic-starlight-7861ca.netlify.app
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
