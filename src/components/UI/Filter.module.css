@@ -1,0 +1,27 @@
+.filter {
+  border: none;
+  width: 10rem;
+  padding-left: 1.5rem;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+.filter::placeholder {
+  padding-left: 2rem;
+}
+
+.darkTheme {
+  background-color: hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 98%);
+  border: none;
+  box-shadow: 1px 1px 1px 1px hsl(210, 26%, 9%);
+  transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
+}
+
+.lightTheme {
+  background-color: white;
+  border: none;
+  color: black;
+  box-shadow: 1px 1px 1px 1px rgb(219, 219, 219);
+  transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
+}

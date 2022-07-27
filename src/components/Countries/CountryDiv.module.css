@@ -1,0 +1,56 @@
+.countryDiv {
+  background-color: white;
+  height: 25rem;
+  border-radius: 7px;
+  cursor: pointer;
+  max-width: 18rem;
+  margin: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.countryDiv:hover {
+  transform: translateY(-0.3rem);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image {
+  height: 45%;
+  width: 100%;
+  vertical-align: middle;
+  border-bottom: 1px solid lightblue;
+  border-radius: 7px 7px 0 0;
+}
+
+.details {
+  padding: 1.5rem;
+}
+
+.span {
+  font-weight: 700;
+}
+
+.name {
+  margin-bottom: 1.4rem;
+}
+
+.details p {
+  margin-bottom: 0.7rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.darkTheme {
+  background-color: hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 98%);
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.lightTheme {
+  background-color: hsl(0, 0%, 98%);
+  color: black;
+  box-shadow: 5px 5px 10px 5px rgb(240, 236, 236);
+  transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
+}

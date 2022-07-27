@@ -1,0 +1,17 @@
+.main {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  padding: 0 10%;
+  padding-top: 2rem;
+}
+
+.darkTheme {
+  background-color: hsl(207, 26%, 17%);
+  transition: background-color 0.4s;
+}
+
+.lightTheme {
+  background-color: hsl(0, 0%, 98%);
+  transition: background-color 0.4s;
+}
