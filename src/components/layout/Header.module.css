@@ -27,16 +27,29 @@
   transition: transform 0.2s ease-in-out;
 }
 
+.homepageBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .darkTheme {
   background-color: hsl(209, 23%, 22%);
   color: hsl(0, 0%, 100%);
   box-shadow: 1px 1px 1px 1px hsl(211, 26%, 23%);
-  transition: background-color 0.4s, color 0.4s, box-shadow 0, 4s;
+  transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
 }
 
 .lightTheme {
   background-color: hsl(0, 0%, 98%);
   color: black;
   box-shadow: 1px 1px 1px 1px rgb(240, 236, 236);
-  transition: background-color 0.4s, color 0.4s, box-shadow 0, 4s;
+  transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
+}
+
+.lightTitle {
+  color: hsl(0, 0%, 100%);
+}
+.darkTitle {
+  color: black;
 }

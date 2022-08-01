@@ -17,7 +17,7 @@
   color: hsl(0, 0%, 98%);
   border: none;
   box-shadow: 1px 1px 1px 1px hsl(210, 26%, 9%);
-  transition: background-color 0.4s, color 0.4s box-shadow 0.4s;
+  transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
 }
 
 .lightTheme {
@@ -26,4 +26,10 @@
   color: black;
   box-shadow: 1px 1px 1px 1px rgb(219, 219, 219);
   transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
+}
+
+@media screen and (max-width: 600px) {
+  .input {
+    width: 17rem;
+  }
 }
