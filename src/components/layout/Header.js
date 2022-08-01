@@ -1,6 +1,7 @@
 import classes from "./Header.module.css";
 import { useContext } from "react";
 import CountryContext from "../../store/country-context";
+import { Link } from "react-router-dom";
 
 const Header = function () {
   const countryCtx = useContext(CountryContext);
@@ -15,7 +16,17 @@ const Header = function () {
 
   return (
     <header className={classesList}>
-      <h3>Where in the world?</h3>
+      <Link to="/countries">
+        <button className={classes.homepageBtn}>
+          <h3
+            className={
+              countryCtx.darkTheme ? classes.lightTitle : classes.darkTitle
+            }
+          >
+            Where in the world?
+          </h3>
+        </button>
+      </Link>
       <button className={classes.btn} onClick={toggleTheme}>
         &#xf186; &#160; Dark mode
       </button>

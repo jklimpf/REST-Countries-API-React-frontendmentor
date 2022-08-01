@@ -82,12 +82,14 @@
   color: black;
   background-color: white;
   box-shadow: 1px 1px 1px 1px rgb(182, 181, 181);
+  transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
 }
 
 .btnDark {
   color: white;
   background-color: hsl(209, 23%, 22%);
   box-shadow: 1px 1px 1px 1px hsl(210, 26%, 9%);
+  transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
 }
 
 .span {
@@ -139,7 +141,11 @@
 }
 @media screen and (max-width: 570px) {
   .image {
-    width: 20rem;
-    height: 14rem;
+    width: 18rem;
+    height: 11rem;
+  }
+
+  .bordersRow p {
+    width: 18rem;
   }
 }
